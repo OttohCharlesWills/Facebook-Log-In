@@ -1,0 +1,122 @@
+body{
+    background: #F0F2F5;
+    color: #1c1e21;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.cret{
+    text-decoration: none;
+    color: black;
+}
+.cret:hover{
+    text-decoration: underline;
+}
+hr{
+    width: 100%;
+}
+input{
+    width: 90%;
+    padding: 5%;
+    color: gray;
+    opacity: 0.5;
+    border: 1px solid grey;
+    /* margin-left: 3%; */
+    border-radius: 10px;
+    font-weight: 20%;
+    font-size: 100%;
+}
+input[type="text"],textarea{
+    border: 1px solid grey;
+    outline: none;
+    transition: border-color 0.3s;
+}
+input[type="text"]:focus, textarea:focus {
+    border: 1px solid;
+    border-color: blue;
+    color: black;
+    opacity: 10;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+input[type="password"],textarea{
+    border: 1px solid grey;
+    outline: none;
+    transition: border-color 0.3s;
+}
+input[type="password"]:focus, textarea:focus {
+    border: 1px solid;
+    border-color: blue;
+    color: black;
+    opacity: 10;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+#father{
+    display: flex;
+    gap: 5%;
+    padding: 10%;
+}
+/***************Text******************/
+.text{
+    padding: 5%;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    height: 22rem;
+    width: auto;
+    border-radius: 10px;
+    background-color:white;
+}
+.pass{
+    color: #0866FF;
+    text-decoration: none;
+}
+.text > .big{
+    font-size: 380%;
+    color: #0866FF;
+}
+.text > .small{
+    font-size: 180%;
+    font-weight:450% ;
+    /* line-height: 120%; */
+}
+.btn {
+    -webkit-border-radius: 7;
+    -moz-border-radius: 7;
+    border-radius: 7px;
+    font-family: Arial;
+    color: white;
+    font-size: 20px;
+    background: #3fc42b;
+    padding: 15px 15px 15px 15px;
+    border: solid white 2px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #399e29;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  #Log {
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    border: none;
+    background: #0866FF;
+    padding: 15px 150px 15px 150px;
+    text-decoration: none;
+  }
+  
+  #Log:hover {
+    background: #0866FF;
+    text-decoration: none;
+    cursor: pointer;
+  }
